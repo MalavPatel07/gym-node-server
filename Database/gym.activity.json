@@ -1,0 +1,62 @@
+[{
+  "_id": {
+    "$oid": "656fdff95120a1e545730a7d"
+  },
+  "activity_id": 101,
+  "activity_name": "Morning Yoga",
+  "trainer": 3,
+  "date": "2023-12-10",
+  "timeslot": "08:00 - 09:00",
+  "participants": [
+    1,
+    2,
+    4
+  ]
+},
+{
+  "_id": {
+    "$oid": "656fdff95120a1e545730a7e"
+  },
+  "activity_id": 102,
+  "activity_name": "Cardio Blast",
+  "trainer": 5,
+  "date": "2023-12-11",
+  "timeslot": "10:00 - 11:00",
+  "participants": [
+    2,
+    3,
+    5,
+    6
+  ]
+},
+{
+  "_id": {
+    "$oid": "656fdff95120a1e545730a7f"
+  },
+  "activity_id": 103,
+  "activity_name": "Strength Training",
+  "trainer": 3,
+  "date": "2023-12-12",
+  "timeslot": "18:00 - 19:00",
+  "participants": [
+    1,
+    4,
+    7,
+    8
+  ]
+},
+{
+  "_id": {
+    "$oid": "656fdff95120a1e545730a80"
+  },
+  "activity_id": 104,
+  "activity_name": "High-Intensity Interval Training",
+  "trainer": 5,
+  "date": "2023-12-13",
+  "timeslot": "17:00 - 18:00",
+  "participants": [
+    3,
+    5,
+    6
+  ]
+}]
