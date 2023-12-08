@@ -8,7 +8,7 @@ const createUserDetails = async(userDetailsData) => {
 const findUserDetailsByUserId = async(userId) => {
     console.log("Finding user details for user_id:", userId);
     try {
-        const userDetails = await UserDetails.findOne({ user_id: userId }).exec();
+        const userDetails = await UserDetails.findOne({ user_id: userId });
         return userDetails;
     } catch (error) {
         console.error("Error finding user details:", error);
@@ -19,9 +19,7 @@ const findUserDetailsByUserId = async(userId) => {
 const getAllUserDetailsWithCount = async() => {
     try {
         const allUserDetails = await UserDetails.find({});
-        console.log(allUserDetails);
         const count = allUserDetails.length;
-        console.log(count);
         return { allUserDetails, count };
     } catch (error) {
         console.error("Error retrieving all user details with count:", error);
