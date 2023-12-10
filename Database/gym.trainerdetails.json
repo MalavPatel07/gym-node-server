@@ -2,23 +2,26 @@
   "_id": {
     "$oid": "6572420de5dd3c3f655c854a"
   },
-  "user_id": 3,
+  "user_id": "3",
   "speciality": "Cardio Fitness",
   "members": [
     "1",
     "6",
-    "8"
+    "8",
+    "91a987f3-7380-48e0-a9c1-2f2a5f3c79c9",
+    "9bbe2bca-badc-4a02-b1a2-a48d3abb8d69"
   ]
 },
 {
   "_id": {
     "$oid": "6572420de5dd3c3f655c854b"
   },
-  "user_id": 5,
+  "user_id": "5",
   "speciality": "Strength Training",
   "members": [
     "2",
     "4",
-    "7"
+    "7",
+    "27c47598-ed53-4850-ae9b-14953e0c5787"
   ]
 }]

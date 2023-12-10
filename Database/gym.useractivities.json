@@ -1,176 +1,437 @@
 [{
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c856b"
+    "$oid": "65729371eb268cbda834b854"
   },
   "user_id": "1",
   "gym_sessions": 20,
   "gym_hours": 30,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 72,
-    "2023-02-01T00:00:00Z": 71,
-    "2023-03-01T00:00:00Z": 70
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 70,
   "target_weight": 68,
   "trainer": "3"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c856c"
+    "$oid": "65729371eb268cbda834b855"
   },
   "user_id": "2",
   "gym_sessions": 25,
   "gym_hours": 40,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 66,
-    "2023-02-01T00:00:00Z": 65,
-    "2023-03-01T00:00:00Z": 64
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 64,
   "target_weight": 63,
   "trainer": "3"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c856d"
+    "$oid": "65729371eb268cbda834b856"
   },
   "user_id": "3",
   "gym_sessions": 15,
   "gym_hours": 22,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 61,
-    "2023-02-01T00:00:00Z": 60,
-    "2023-03-01T00:00:00Z": 59
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 59,
   "target_weight": 58,
   "trainer": "5"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c856e"
+    "$oid": "65729371eb268cbda834b857"
   },
   "user_id": "4",
   "gym_sessions": 18,
   "gym_hours": 28,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 76,
-    "2023-02-01T00:00:00Z": 74,
-    "2023-03-01T00:00:00Z": 73
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 73,
   "target_weight": 72,
   "trainer": "3"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c856f"
+    "$oid": "65729371eb268cbda834b858"
   },
   "user_id": "5",
   "gym_sessions": 22,
   "gym_hours": 35,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 69,
-    "2023-02-01T00:00:00Z": 68,
-    "2023-03-01T00:00:00Z": 67
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 67,
   "target_weight": 66,
   "trainer": "5"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c8570"
+    "$oid": "65729371eb268cbda834b859"
   },
   "user_id": "6",
   "gym_sessions": 30,
   "gym_hours": 45,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 59,
-    "2023-02-01T00:00:00Z": 58,
-    "2023-03-01T00:00:00Z": 57
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 57,
   "target_weight": 56,
   "trainer": "5"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c8571"
+    "$oid": "65729371eb268cbda834b85a"
   },
   "user_id": "7",
   "gym_sessions": 17,
   "gym_hours": 26,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 65,
-    "2023-02-01T00:00:00Z": 64,
-    "2023-03-01T00:00:00Z": 63
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 63,
   "target_weight": 62,
   "trainer": "3"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c8572"
+    "$oid": "65729371eb268cbda834b85b"
   },
   "user_id": "8",
   "gym_sessions": 12,
   "gym_hours": 18,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 73,
-    "2023-02-01T00:00:00Z": 72,
-    "2023-03-01T00:00:00Z": 71
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 71,
   "target_weight": 70,
   "trainer": "5"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c8573"
+    "$oid": "65729371eb268cbda834b85c"
   },
   "user_id": "91a987f3-7380-48e0-a9c1-2f2a5f3c79c9",
-  "gym_sessions": 12,
-  "gym_hours": 18,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 74,
-    "2023-02-01T00:00:00Z": 73,
-    "2023-03-01T00:00:00Z": 72
-  },
-  "current_weight": 72,
-  "target_weight": 71,
-  "trainer": "5"
+  "gym_sessions": 16,
+  "gym_hours": 23,
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    },
+    {
+      "weight": 54,
+      "_id": {
+        "$oid": "6574fa8da12aa3ed8e4c06fc"
+      },
+      "date": {
+        "$date": "2023-12-09T23:38:53.892Z"
+      }
+    },
+    {
+      "weight": 54,
+      "_id": {
+        "$oid": "657509a816d923e148fce324"
+      },
+      "date": {
+        "$date": "2023-12-10T00:43:20.201Z"
+      }
+    },
+    {
+      "weight": 54,
+      "_id": {
+        "$oid": "65751b1d83a74f44e6cca834"
+      },
+      "date": {
+        "$date": "2023-12-10T01:57:49.027Z"
+      }
+    }
+  ],
+  "trainer": "3",
+  "current_weight": 54,
+  "target_weight": 72,
+  "__v": 4
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c8574"
+    "$oid": "65729371eb268cbda834b85d"
   },
   "user_id": "69298ddf-e9a1-4e9c-99e4-da0d7514527f",
   "gym_sessions": 12,
   "gym_hours": 18,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 75,
-    "2023-02-01T00:00:00Z": 74,
-    "2023-03-01T00:00:00Z": 73
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 73,
   "target_weight": 72,
   "trainer": "5"
 },
 {
   "_id": {
-    "$oid": "65725f42e5dd3c3f655c8575"
+    "$oid": "65729371eb268cbda834b85e"
   },
   "user_id": "8a4631a9-c0ed-475b-848b-5fd3ee04f8d8",
   "gym_sessions": 12,
   "gym_hours": 18,
-  "weight_history": {
-    "2023-01-01T00:00:00Z": 76,
-    "2023-02-01T00:00:00Z": 75,
-    "2023-03-01T00:00:00Z": 74
-  },
+  "weight_history": [
+    {
+      "date": {
+        "$date": "2023-01-01T00:00:00.000Z"
+      },
+      "weight": 72
+    },
+    {
+      "date": {
+        "$date": "2023-02-01T00:00:00.000Z"
+      },
+      "weight": 71
+    },
+    {
+      "date": {
+        "$date": "2023-03-01T00:00:00.000Z"
+      },
+      "weight": 70
+    }
+  ],
   "current_weight": 74,
   "target_weight": 73,
   "trainer": "5"
+},
+{
+  "_id": {
+    "$oid": "657522368282e53535e43727"
+  },
+  "user_id": "9bbe2bca-badc-4a02-b1a2-a48d3abb8d69",
+  "gym_sessions": 1,
+  "gym_hours": 1,
+  "current_weight": 65,
+  "target_weight": 66,
+  "trainer": "3",
+  "weight_history": [
+    {
+      "weight": 65,
+      "_id": {
+        "$oid": "657523528282e53535e4374b"
+      },
+      "date": {
+        "$date": "2023-12-10T02:32:50.102Z"
+      }
+    },
+    {
+      "weight": 65,
+      "_id": {
+        "$oid": "65753b2523f281e81853b168"
+      },
+      "date": {
+        "$date": "2023-12-10T04:14:29.711Z"
+      }
+    }
+  ],
+  "__v": 2
+},
+{
+  "_id": {
+    "$oid": "65752ce929498a106427ee2b"
+  },
+  "user_id": "27c47598-ed53-4850-ae9b-14953e0c5787",
+  "gym_sessions": 0,
+  "gym_hours": 0,
+  "current_weight": 56,
+  "target_weight": 60,
+  "trainer": "5",
+  "weight_history": [
+    {
+      "weight": 56,
+      "_id": {
+        "$oid": "6575388c23f281e81853b078"
+      },
+      "date": {
+        "$date": "2023-12-10T04:03:24.577Z"
+      }
+    }
+  ],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "65753bf423f281e81853b1d9"
+  },
+  "user_id": "211b287b-30ce-4338-8c5b-6a61e32e7592",
+  "gym_sessions": 0,
+  "gym_hours": 0,
+  "current_weight": 0,
+  "target_weight": 0,
+  "trainer": "",
+  "weight_history": [],
+  "__v": 0
 }]

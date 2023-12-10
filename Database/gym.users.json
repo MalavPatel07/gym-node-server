@@ -99,4 +99,34 @@
   "password": "pass123",
   "userType": "Member",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657522368282e53535e43723"
+  },
+  "user_id": "9bbe2bca-badc-4a02-b1a2-a48d3abb8d69",
+  "email": "krishi@panchal.com",
+  "password": "pass123",
+  "userType": "Member",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65752ce929498a106427ee27"
+  },
+  "user_id": "27c47598-ed53-4850-ae9b-14953e0c5787",
+  "email": "pratik@gmail.com",
+  "password": "pass123",
+  "userType": "Member",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65753bf423f281e81853b1d5"
+  },
+  "user_id": "211b287b-30ce-4338-8c5b-6a61e32e7592",
+  "email": "ka@g.com",
+  "password": "k",
+  "userType": "Member",
+  "__v": 0
 }]

@@ -11,9 +11,10 @@
   "gender": "Male",
   "weight": 70,
   "height": 175,
-  "membershipType": "Gold",
+  "membershipType": "Platinum",
   "dateOfJoining": "2022-01-01",
-  "testimonial": "Since joining, I've really enjoyed the variety of facilities available. Definitely worth the investment!"
+  "testimonial": "Since joining, I've really enjoyed the variety of facilities available. Definitely worth the investment!",
+  "favourites": []
 },
 {
   "_id": {
@@ -30,7 +31,8 @@
   "height": 168,
   "membershipType": "Premium",
   "dateOfJoining": "2022-02-15",
-  "testimonial": "The premium membership is fantastic! The extra perks and personalized service have been amazing."
+  "testimonial": "The premium membership is fantastic! The extra perks and personalized service have been amazing.",
+  "favourites": []
 },
 {
   "_id": {
@@ -40,14 +42,19 @@
   "firstname": "Alice",
   "lastname": "Johnson",
   "phone": "123-456-7892",
-  "dob": "1992-03-03",
+  "dob": {
+    "$date": "1992-03-03T00:00:00.000Z"
+  },
   "age": 31,
-  "gender": "Female",
+  "gender": "Other",
   "weight": 60,
   "height": 162,
   "membershipType": "Gold",
-  "dateOfJoining": "2022-03-10",
-  "testimonial": "I love the community here! Everyone is so supportive and it's a great environment to be in."
+  "dateOfJoining": {
+    "$date": "2022-03-10T00:00:00.000Z"
+  },
+  "testimonial": "I love the community here! Everyone is so supportive and it's a great environment to be in.",
+  "favourites": []
 },
 {
   "_id": {
@@ -64,7 +71,8 @@
   "height": 180,
   "membershipType": "Gold",
   "dateOfJoining": "2022-04-20",
-  "testimonial": "Really impressed with the quality of equipment and the knowledgeable staff."
+  "testimonial": "Really impressed with the quality of equipment and the knowledgeable staff.",
+  "favourites": []
 },
 {
   "_id": {
@@ -81,7 +89,8 @@
   "height": 172,
   "membershipType": "Gold",
   "dateOfJoining": "2022-05-05",
-  "testimonial": "The gold membership is great value for money. I've achieved so much since I started here."
+  "testimonial": "The gold membership is great value for money. I've achieved so much since I started here.",
+  "favourites": []
 },
 {
   "_id": {
@@ -98,7 +107,8 @@
   "height": 165,
   "membershipType": "Gold",
   "dateOfJoining": "2022-06-15",
-  "testimonial": "I've found the classes and facilities perfect for my fitness journey. Highly recommend!"
+  "testimonial": "I've found the classes and facilities perfect for my fitness journey. Highly recommend!",
+  "favourites": []
 },
 {
   "_id": {
@@ -115,7 +125,8 @@
   "height": 170,
   "membershipType": "Premium",
   "dateOfJoining": "2022-07-22",
-  "testimonial": "The extra attention and services with the premium membership have been a game-changer for me."
+  "testimonial": "The extra attention and services with the premium membership have been a game-changer for me.",
+  "favourites": []
 },
 {
   "_id": {
@@ -132,7 +143,8 @@
   "height": 177,
   "membershipType": "Gold",
   "dateOfJoining": "2022-08-30",
-  "testimonial": "The staff are always friendly and helpful, and the facilities are top-notch."
+  "testimonial": "The staff are always friendly and helpful, and the facilities are top-notch.",
+  "favourites": []
 },
 {
   "_id": {
@@ -148,12 +160,22 @@
   "age": 22,
   "gender": "Male",
   "weight": 86,
-  "height": 175,
-  "membershipType": "Platinum",
+  "height": 174,
+  "membershipType": "Gold",
   "dateOfJoining": {
     "$date": "2023-12-06T00:00:00.000Z"
   },
-  "testimonial": "The platinum membership is absolutely worth it. The personal training sessions have been fantastic."
+  "testimonial": "The platinum membership is absolutely worth it. The personal training sessions have been fantastic.",
+  "favourites": [
+    645175,
+    633093,
+    659463,
+    1095992,
+    641687,
+    653251,
+    648632
+  ],
+  "__v": 26
 },
 {
   "_id": {
@@ -170,11 +192,12 @@
   "gender": "Male",
   "weight": 73,
   "height": 170,
-  "membershipType": "Gold",
+  "membershipType": "Premium",
   "dateOfJoining": {
     "$date": "2023-12-07T00:00:00.000Z"
   },
-  "testimonial": "As a Gold member, I've enjoyed access to a wide range of facilities and classes. It's been great for my fitness goals."
+  "testimonial": "As a Premium member, I've enjoyed access to a wide range of facilities and classes. It's been great for my fitness goals.",
+  "favourites": []
 },
 {
   "_id": {
@@ -195,5 +218,79 @@
   "dateOfJoining": {
     "$date": "2023-12-07T00:00:00.000Z"
   },
+  "__v": 0,
+  "favourites": []
+},
+{
+  "_id": {
+    "$oid": "657522368282e53535e43725"
+  },
+  "user_id": "9bbe2bca-badc-4a02-b1a2-a48d3abb8d69",
+  "firstname": "Krishi",
+  "lastname": "Panchal",
+  "phone": "123456789",
+  "dob": {
+    "$date": "2000-12-31T00:00:00.000Z"
+  },
+  "age": 22,
+  "gender": "Other",
+  "weight": 67,
+  "height": 170,
+  "membershipType": "Premium",
+  "dateOfJoining": {
+    "$date": "2023-12-10T00:00:00.000Z"
+  },
+  "favourites": [],
+  "__v": 0,
+  "testimonial": "i wnt loose weight"
+},
+{
+  "_id": {
+    "$oid": "65752ce929498a106427ee29"
+  },
+  "user_id": "27c47598-ed53-4850-ae9b-14953e0c5787",
+  "firstname": "Pratik",
+  "lastname": "Poojari",
+  "phone": "738178",
+  "dob": {
+    "$date": "2000-07-28T00:00:00.000Z"
+  },
+  "age": 23,
+  "gender": "Male",
+  "weight": 67,
+  "height": 170,
+  "membershipType": "Premium",
+  "dateOfJoining": {
+    "$date": "2023-12-10T00:00:00.000Z"
+  },
+  "favourites": [],
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65753bf423f281e81853b1d7"
+  },
+  "user_id": "211b287b-30ce-4338-8c5b-6a61e32e7592",
+  "firstname": "k",
+  "lastname": "k",
+  "phone": "4554446",
+  "dob": {
+    "$date": "2023-12-05T00:00:00.000Z"
+  },
+  "age": 12,
+  "gender": "Male",
+  "weight": 67,
+  "height": 123,
+  "membershipType": "Platinum",
+  "dateOfJoining": {
+    "$date": "2023-12-10T00:00:00.000Z"
+  },
+  "favourites": [
+    1697625,
+    641687,
+    650127,
+    634404,
+    653019
+  ],
+  "__v": 5
 }]
